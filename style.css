@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background: #242526;
+}
+
+.container {
+  height: 700px;
+  width: 500px;
+  background-color: #18191a;
+  box-shadow: 8px 8px 20px lightgoldenrodyellow;
+  border-radius: 20px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-btn {
+  height: 60px;
+  width: 300px;
+  margin: 20px auto;
+  /*box-shadow: 0px 0px 100px 0.5px lightgoldenrodyellow;*/
+  box-shadow: 0px 12px 70px -20px lightgoldenrodyellow;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login,
+.signup {
+  font-size: 22px;
+  color: #18191a;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.slider {
+  height: 60px;
+  width: 150px;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgb(154, 205, 50),
+    rgb(0, 128, 0)
+  );
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  transition: all 0.5s ease-in-out;
+}
+
+.moveslider {
+  left: 250px;
+}
+
+.form-section {
+  height: 500px;
+  width: 1000px;
+  padding: 20px 0px;
+  display: flex;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  left: 0px;
+
+}
+
+.form-section-move {
+  left: -500px;
+}
+
+.login-box,
+.signup-box {
+  height: 100%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:0px 40px;
+}
+
+.login-box {
+  gap: 50px;
+}
+.signup-box {
+  gap: 30px;
+
+}
+
+.element {
+  height: 60px;
+  width: 400px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.click-btn {
+  height: 60px;
+  width: 150px;
+  font-size: 22px;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, yellowgreen, green);
+  border-radius: 50px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.new-user-link {
+  height: 60px;
+  width: 180px;
+  font: size 15px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+}
